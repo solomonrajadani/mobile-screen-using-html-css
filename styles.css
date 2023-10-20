@@ -1,0 +1,133 @@
+@media screen and (max-width: 768px) {
+  /* Styles for screens with a maximum width of 768 pixels */
+  body {
+    background-color: red;
+
+  }
+  .container {
+    display: none;
+  }
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    float: left;
+    width: 170px;
+    height: 105px;
+    
+}
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    padding-top:0%;
+   
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 25PX;
+  }
+  
+
+  
+    
+.right_align{
+    width: 70%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+footer {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+  }
+
+  .centered-footer {
+    text-align: center;
+    float: right;
+    border:4px #fff;
+    width: 100%;
+    height: 40px;
+
+  }
+  .centered-footer a {
+
+    border: 5px rgb(8, 8, 8);
+    font-size: 25px;
+
+  }
+
+
+
+
+.centered-footer a {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust the padding as needed */
+    margin: 5px; /* Add margin for spacing between links */
+    border: 1px solid #333; /* Add a border to create a boxed style */
+    text-decoration: none; /* Remove the default underline on links */
+    color: white; /* Text color */
+    /* background-color: #fff;  Background color for links */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s; /* Add a smooth transition on hover */
+    
+}
+
+.centered-footer a:hover {
+    background-color: #1cb631; /* Change background color on hover */
+     /* Change text color on hover */
+}
+
+
+  .left_align {
+    width: 30%; /* Adjust the width as needed */
+    background-color: #463788; /* Background color for the sidebar */
+    color: #fff; /* Text color */
+    
+   
+    
+}
+
+.left_align ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.left_align li {
+    margin-bottom: 10px; /* Spacing between navigation items */
+    
+}
+
+
+.left_align a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*size of text*/
+b {
+  color: rgb(5, 202, 32);
+  
+  
+  
+}
+ 
+  
+  
+
+
+
